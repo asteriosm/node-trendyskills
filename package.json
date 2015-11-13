@@ -1,0 +1,22 @@
+{
+  "name": "node-trendyskills",
+  "version": "1.0.0",
+  "description": "Node Client library to use the trendyskills API",
+  "main": "lib/trendySkills.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asteriosm/node-trendyskills.git"
+  },
+  "keywords": [
+    "tendyskills"
+  ],
+  "author": "Stergios Marias <asteriosmr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asteriosm/node-trendyskills/issues"
+  },
+  "homepage": "https://github.com/asteriosm/node-trendyskills#readme",
+  "dependencies": {
+    "request": "^2.65.0"
+  }
+}
