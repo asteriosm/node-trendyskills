@@ -1,6 +1,6 @@
 {
   "name": "node-trendyskills",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Node Client library to use the trendyskills API",
   "main": "lib/trendySkills.js",
   "repository": {

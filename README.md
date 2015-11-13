@@ -32,14 +32,10 @@ Checks and returns the status of the web service
 ts.status().get().then(json => {
     console.log(json);
 });
-```
-
-Output:
-```javascript
-{ success: true,
-  numValues: '1',
-  status: 'ok',
-  links: { self: [ [Object], [Object] ] } }
+// { success: true,
+//   numValues: '1',
+//   status: 'ok',
+//   links: { self: [ [Object], [Object] ] } }
 ```
 
 ### - keywords()
@@ -49,21 +45,16 @@ Search for a keyword name
 ts.keywords().like('java').get().then(json => {
     console.log(json);
 });
-```
-
-Output:
-
-```javascript
-{ success: true,
-  category: 'allKeywords',
-  numValues: 5,
-  keywords: 
-   [ { id: '915', keyName: 'Java' },
-     { id: '577', keyName: 'Java 3D' },
-     { id: '564', keyName: 'Java Advanced Imaging' },
-     { id: '587', keyName: 'Java API for XML-Based RPC' },
-     { id: '556', keyName: 'Java Authentication and Authorization Service' } ],
-  links: { self: [ [Object], [Object] ] } }
+// { success: true,
+//   category: 'allKeywords',
+//   numValues: 5,
+//   keywords: 
+//    [ { id: '915', keyName: 'Java' },
+//      { id: '577', keyName: 'Java 3D' },
+//      { id: '564', keyName: 'Java Advanced Imaging' },
+//      { id: '587', keyName: 'Java API for XML-Based RPC' },
+//      { id: '556', keyName: 'Java Authentication and Authorization Service' } ],
+//   links: { self: [ [Object], [Object] ] } }
 ```
 
 ### -categories()
@@ -73,15 +64,11 @@ Search for a category name
 ts.categories().like('languages').get().then(json => {
     console.log(json);
 });
-```
-
-Output:
-```javascript
-{ success: true,
-  category: 'allCategories',
-  numValues: 1,
-  categories: [ { id: '8', catName: 'Languages', parentID: '0' } ],
-  links: { self: [ [Object], [Object] ] } }
+// { success: true,
+//   category: 'allCategories',
+//   numValues: 1,
+//   categories: [ { id: '8', catName: 'Languages', parentID: '0' } ],
+//   links: { self: [ [Object], [Object] ] } }
 ```
 
 ### -keywordNoDate()
