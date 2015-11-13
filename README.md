@@ -35,7 +35,7 @@ ts.status().get().then(json => {
 ```
 
 Output:
-```json
+```javascript
 { success: true,
   numValues: '1',
   status: 'ok',
@@ -53,7 +53,7 @@ ts.keywords().like('java').get().then(json => {
 
 Output:
 
-```json
+```javascript
 { success: true,
   category: 'allKeywords',
   numValues: 5,
@@ -76,7 +76,7 @@ ts.categories().like('languages').get().then(json => {
 ```
 
 Output:
-```json
+```javascript
 { success: true,
   category: 'allCategories',
   numValues: 1,
